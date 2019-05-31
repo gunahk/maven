@@ -1,4 +1,7 @@
-Hello World! (WAR-style)
-===============
+A simple Hello World app inspired by the steps from Heroku document "Create a Java Web Application Using Embedded Tomcat"
 
-This is the simplest possible Java webapp for testing servlet container deployments.  It should work on any container and requires no other dependencies or configuration.
+To run locally after cloning the repo,
+
+1. mvn package
+2. sh target/bin/webapp 
+
